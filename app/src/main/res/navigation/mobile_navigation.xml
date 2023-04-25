@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.thunder.arbooks.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.thunder.arbooks.ui.gallery.GalleryFragment"
+        android:label="Galeria"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.thunder.arbooks.ui.slideshow.SlideshowFragment"
+        android:label="Videos"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_quitarlibro"
+        android:name="com.thunder.arbooks.nav_quitarlibro"
+        android:label="Quitar Libros"
+        tools:layout="@layout/fragment_nav_quitarlibro" />
+    <fragment
+        android:id="@+id/nav_manual"
+        android:name="com.thunder.arbooks.nav_manual"
+        android:label="Manual de Usuario"
+        tools:layout="@layout/fragment_nav_manual" />
+    <fragment
+        android:id="@+id/nav_ayuda"
+        android:name="com.thunder.arbooks.nav_ayuda"
+        android:label="Ayuda"
+        tools:layout="@layout/fragment_nav_ayuda" />
+    <fragment
+        android:id="@+id/nav_valorar"
+        android:name="com.thunder.arbooks.nav_valorar"
+        android:label="Valorar"
+        tools:layout="@layout/fragment_nav_valorar" />
+    <fragment
+        android:id="@+id/nav_opiniones"
+        android:name="com.thunder.arbooks.nav_opiniones"
+        android:label="Opiniones"
+        tools:layout="@layout/fragment_nav_opiniones" />
+    <fragment
+        android:id="@+id/nav_ajustes"
+        android:name="com.thunder.arbooks.nav_ajustes"
+        android:label="Ajustes"
+        tools:layout="@layout/fragment_nav_ajustes" />
+    <fragment
+        android:id="@+id/nav_agregarlibro"
+        android:name="com.thunder.arbooks.nav_agregarlibro"
+        android:label="Agregrar Libro"
+        tools:layout="@layout/fragment_nav_agregarlibro" />
+    <fragment
+        android:id="@+id/fragment_loginactivity"
+        android:name="com.thunder.arbooks.fragment_loginactivity"
+        android:label="Iniciar Sesion"
+        tools:layout="@layout/fragment_loginactivity" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "176346891152",
+    "project_id": "ar-books-2023",
+    "storage_bucket": "ar-books-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176346891152:android:3fea17c5533613e63ea915",
+        "android_client_info": {
+          "package_name": "com.thunder.arbooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176346891152-qs1re2i6e6sg5hslns31htk9huonk0bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs3fNnSa0TPC-AGO-VRg-kSCq1K2iIAlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176346891152-qs1re2i6e6sg5hslns31htk9huonk0bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/fragment_loginactivity"
+            android:icon="@drawable/usuario"
+            android:title="Iniciar Sesion" />
+        <item
+            android:id="@+id/nav_agregarlibro"
+            android:icon="@drawable/booka"
+            android:title="Agregar Libros" />
+
+        <item
+            android:id="@+id/nav_quitarlibro"
+            android:icon="@drawable/eliminar"
+            android:title="Quitar Libros" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Galeria" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Videos" />
+        <item
+            android:id="@+id/nav_manual"
+            android:icon="@drawable/libro"
+            android:title="Manual" />
+        <item
+            android:id="@+id/nav_valorar"
+            android:icon="@drawable/estrella"
+            android:title="Valorar" />
+
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@drawable/ayuda"
+            android:title="Ayuda" />
+
+        <item
+            android:id="@+id/nav_opiniones"
+            android:icon="@drawable/usuario"
+            android:title="Opiniones" />
+
+
+        <item
+            android:id="@+id/nav_ajustes"
+            android:icon="@drawable/engranaje"
+            android:title="Ajustes" />
+
+    </group>
+</menu>
